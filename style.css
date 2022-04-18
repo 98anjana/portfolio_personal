@@ -1,0 +1,182 @@
+body{
+  margin:0;
+  padding: 0;
+}
+
+header{
+  display: none;
+}
+
+button{
+  color: rgb(255, 251, 7);
+}
+
+.typing-demo {
+  width: 16ch;
+  animation: typing 3s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  color: rgb(255, 255, 255);
+  font-size: 3em;
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+.box{
+width: 100%;
+height:650px;
+
+}
+
+.item {
+  margin-bottom: 30px
+}
+
+
+
+.item .cover {
+  position:absolute;
+  top: 0;
+  right: 0;
+  width: 33%;
+  height: 100%;
+  background-color: rgba(211, 253, 162, 0.75);
+  transition: opacity 0.15s ease-in;
+  opacity: 0;
+  padding-top: 280px;
+  /* padding-left: 145px; */
+  color: rgb(0, 0, 0);
+  
+}
+
+.item:hover .cover {
+  opacity: 1;
+}
+
+.item .name {
+  font-weight: bold;
+  margin-bottom: 8px;
+   padding-left: 110px;
+}
+
+.social .fa {
+  padding: 20px;
+  padding-left: 80px;
+  /* margin-left: 50px; */
+
+}
+
+.social a {
+  color:black;
+  margin: 0p 0px;
+  display: inline-block;
+  opacity: 1;
+}
+
+.social a:hover {
+  opacity: 1;
+ 
+}
+
+.ul{
+  display:inline-block;
+  list-style: none; 
+  margin-left: 0px;
+}
+
+ul li{
+  display: inline;
+  padding-left: 20px;
+  
+}
+
+.icons , .fa{
+  font-size: 30px;
+  color: rgb(56, 55, 55);
+}
+.icons , .fa:hover{
+  color: rgb(255, 251, 0);
+}
+
+@media screen and (min-width:320px) and (max-width:480px){
+
+  header{
+    display: block;
+  }
+
+ .navbar{
+   top:0
+ }
+
+ .button{
+   margin: 0rem!important;
+ }
+
+ .typing-demo{
+   margin-top: 50px;
+ }
+
+ .wrapper{
+   margin-left: 1rem!important ;
+   margin-top: 1rem !important ;
+ }
+
+ .item .cover {
+  display: none;
+  
+}
+ 
+  .box{
+    height:430px;
+    }
+  
+
+  .typing-demo {
+    font-size:25px;
+    margin-left: 22px;
+  }
+
+  ul{
+    
+    padding-left: 0px;
+    
+  }
+
+  
+
+}
+
+@media screen and (min-width:480px) and (max-width:768px){
+
+  header{
+    display: block;
+  }
+
+  .navbar-second{
+    display: none;
+  }
+
+  .typing-demo {
+    font-size:35px;
+    margin-left: 60px;
+  }
+
+  .item .cover {
+    display: none;
+  }
+
+
+}

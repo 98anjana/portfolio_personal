@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.navbar-brand{
+    font-size: 40px;
+}
+
+.re-start {
+    margin-top: 200px;
+}
+
+.navbar-brand , ul  li{
+    font-family: 'Slabo 27px', serif;
+}
+
+
+.progress-bar{
+    color:rgb(0, 0, 0); 
+    background-color: rgb(249, 252, 73);
+    border:1px solid rgb(170, 170, 170);
+}
+
+
+.icons{
+    display:flex;
+    list-style: none;
+    margin-left: -20px;
+}
+
+.fa{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+.dld-btn{
+    width: 20%;
+    height:50px;
+}
+
+@media screen and (min-width:320px) and (max-width:480px){
+
+    .navbar-brand{
+        font-size: 25px;
+    }
+
+    .myname{
+        font-size: 20px;
+    }
+
+    .email{
+        font-size: 17px;
+    }
+
+    .address{
+        font-size: 14px;
+    }
+
+    .fa{
+        font-size: 20px;
+    }
+    .dld-btn{
+        width: 40%;
+    }
+}

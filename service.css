@@ -1,0 +1,129 @@
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background: rgb(255, 255, 255);
+}
+
+.navbar-brand{
+    font-size: 40px;
+}
+.navbar-brand, ul li{
+    /* font-size: 40px; */
+    font-family: 'Slabo 27px', serif;
+}
+
+.box {
+    position: relative;
+    width: 80%;
+    margin-left: 35px;
+    
+}
+
+.our-services {
+    margin-top: 75px;
+    padding-bottom: 30px;
+    padding: 0 60px;
+    height: 198px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(201, 245, 120);
+    color: rgb(0, 0, 0);
+    transition: all .4s ease-in-out;
+    box-shadow: 0 0 25px 0 rgba(20, 27, 202, .17)
+}
+
+
+
+.our-services .icon {
+    margin-bottom: -2px;
+    transform: translateY(-50%);
+    text-align: center
+}
+
+.our-services:hover h4,
+.our-services:hover p {
+    color: #fff
+}
+
+.network:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #fb0054 0%, #f5d72a 100%)
+}
+
+.webd:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #26effd 0%, #260288 100%)
+}
+
+.ai:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #520394 0%, #f02166 100%)
+}
+
+.webs:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #e4fc0e 0%, #f16413 100%)
+}
+
+.cloud:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #ff2600 0%, #055c13 100%)
+}
+
+.database:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #27b88d 0%, #d3e90e 100%)
+}
+
+@media screen and (min-width:320px) and (max-width:480px){
+
+    
+
+    .navbar-brand{
+        font-size: 25px;
+    }
+
+    .our-services{
+        height: 215px;
+    }
+    
+    .para{
+        font-size: 13px;
+    }
+}
+
+
+
+@media screen and (min-width:480px) and (max-width:768px){
+
+    .left {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        padding-left: 70px;
+        
+    }
+
+    .para{
+        font-size: 13px;
+        width: 100%;
+       
+    }
+
+
+    .bottom{
+    width: 100%;
+    padding-left: 70px;
+    }
+
+}

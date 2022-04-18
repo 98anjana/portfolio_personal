@@ -1,0 +1,56 @@
+.navbar-brand{
+  font-size: 40px;
+}
+
+body{
+  background-color: rgb(183, 248, 79);
+}
+
+.first{
+  margin-top: 130px;
+
+ 
+}
+
+.map-container-2{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-2 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+.navbar-brand ,ul li{
+  font-family: 'Slabo 27px', serif;
+}
+
+.submit-btn{
+width: 10%;
+border-radius: 20px;
+height: 40px;
+}
+
+/* a:active{
+  background-color: rgb(231, 255, 19);
+} */
+
+@media screen and (min-width:320px) and (max-width:480px){
+
+  .navbar-brand{
+      font-size: 25px;
+  }
+
+  .comment-box{
+    margin-left: 10px;
+  }
+  .submit-btn{
+    width: 30%;
+
+}
+}
