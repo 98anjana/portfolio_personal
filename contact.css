@@ -2,9 +2,9 @@
   font-size: 40px;
 }
 
-body{
-  background-color: rgb(183, 248, 79);
-}
+/* body{
+  background-color: rgb(198, 250, 115);
+} */
 
 .first{
   margin-top: 130px;
@@ -30,6 +30,10 @@ body{
   font-family: 'Slabo 27px', serif;
 }
 
+.comment-box{
+  background-color: rgb(197, 248, 103);
+  margin-left: 15px;
+}
 .submit-btn{
 width: 10%;
 border-radius: 20px;
@@ -46,11 +50,18 @@ height: 40px;
       font-size: 25px;
   }
 
+  /* input,
+input::-webkit-input-placeholder {
+    font-size: 10px;
+} */
+
   .comment-box{
     margin-left: 10px;
   }
+
   .submit-btn{
     width: 30%;
+    margin-left: 30px;
 
 }
 }

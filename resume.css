@@ -5,7 +5,7 @@
 }
 
 .navbar-brand{
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .re-start {
@@ -18,9 +18,10 @@
 
 
 .progress-bar{
-    color:rgb(0, 0, 0); 
-    background-color: rgb(249, 252, 73);
-    border:1px solid rgb(170, 170, 170);
+    color:rgb(80, 75, 75); 
+    font-weight: bolder;
+    background-color: rgb(248, 252, 14);
+    border:1px solid rgb(138, 137, 137);
 }
 
 

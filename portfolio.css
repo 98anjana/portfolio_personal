@@ -8,31 +8,46 @@
 }
 
 
-
 .intro-left{
     background-color:rgb(0, 0, 0);
     position:fixed;
     left: 0;
     width: 25%;
     height: 100%;
+    margin-top: 40px;
 }
 
-/* .port-bg{
-    margin-top: 100px;
-} */
+.me{
+    width:236px;
+    height:250px;
+    margin-top: 60px;
+    /* margin-right: 50px; */
+    
+}
 
-.me-img2{
-    margin-left: 50px;
-    margin-top: 45px;
-    width:320px;
-    height:350px;
+.intro-left{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/44/138/362/leaves-green-abstract-leaves-wallpaper-preview.jpg);
+    position:fixed;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    
 }
 
 .bd{
-border: 15px solid rgb(248, 232, 10); 
-height:480px;
- width:230px;
-}
+    border: 15px solid rgb(248, 232, 10); 
+    margin-top: 26px;
+    margin-left: 28px;
+    height:480px;
+     width:280px;
+    }
+    .bd1{
+        border: 15px solid rgb(82, 82, 82); 
+        height:440px;
+         width:130px;
+        }
+
+
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -58,9 +73,6 @@ height:480px;
         font-size: 25px;
     }
 
-    /* .navbar{
-        margin-right: 100px;
-    } */
 
     .intro-left{
         position:relative;
@@ -73,18 +85,25 @@ height:480px;
         margin-right: auto;
     }
 
-    .me-img2{
-        margin-left: 0px;
-        margin-top: 25px;
-        width:230px;
-        height:200px;
+    .sec-2{
+        margin-top: 1px;
     }
-    
+
+    .me{
+        width:190px;
+        height:250px;
+        margin-top: 60px;
+        margin-right: 0px;
+    }
+
     .bd{
-        border: 15px solid rgb(248, 232, 10); 
-        height:280px;
-         width:200px;
-        }
+        width:220px;
+    }
+
+   
+.card{
+        margin: 50px 0px;}
+    
 }
 
 @media screen and (min-width:480px) and (max-width:768px){
@@ -94,17 +113,21 @@ height:480px;
         width:40%;
         height:100%;}
 
-        .me-img2{
+        .me{
             margin-left: 0px;
-            margin-top: 25px;
-            width:300px;
-            height:330px;
+            margin-top: 55px;
+            width:165px;
+            height:210px;
         }
-        
+    
         .bd{
-            border: 15px solid rgb(248, 232, 10); 
-            height:420px;
-             width:200px;
+        margin-left: 40px;
+        height:390px;
+         width:190px;
+        }
+    
+        .bd1{
+            height:340px;
             }
         
         .card{

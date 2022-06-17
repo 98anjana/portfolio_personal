@@ -3,16 +3,12 @@
 
 .navbar-brand ,ul li{font-family: 'Slabo 27px', serif;}
 
-/* .about{
-    margin-top:100px; 
-     color: rgb(0, 0, 0);} 
-     */
 
 .me{
-    width:240px;
-    height:300px;
+    width:236px;
+    height:250px;
     margin-top: 60px;
-    margin-right: 50px;
+    /* margin-right: 50px; */
     
 }
 
@@ -27,7 +23,7 @@
 
 .quote{
     font-family:'Times New Roman', Times, serif;
-    font-size: 35px;
+    font-size: 52px;
     margin-right: 60px;
 }
 
